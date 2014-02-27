@@ -26,6 +26,6 @@ class Client implements ClientModel {
 	}
 	
 	public function authenticate() {
-		$client->authenticate($this->github_user, $this->github_pass);
+		$this->client->authenticate(self::$github_user, self::$github_pass,\Github\Client::AUTH_HTTP_PASSWORD);
 	}
 }

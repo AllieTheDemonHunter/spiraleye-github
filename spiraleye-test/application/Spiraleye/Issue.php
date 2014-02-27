@@ -8,7 +8,7 @@ require_once 'Spiraleye/Client.php';
 interface IssueModel {
 	public function get_issues($state);
 	public function get_issue($issue_id);
-	public function set_issue($title, $body);
+	public function set_issue($title, $body, $label);
 }
 
 class Issue extends Client implements IssueModel {
@@ -23,8 +23,8 @@ class Issue extends Client implements IssueModel {
 		return $this->issue = $this->client->api('issue')->show(Client::$github_repo_provider, Client::$github_repo, $issue_id);
 	}
 	
-	public function set_issue($title, $body) {
+	public function set_issue($title, $body, $label) {
 		$this->authenticate();
-		$this->client->api('issue')->create(Client::$github_repo_provider, Client::$github_repo, array('title' => 'The issue title', 'body' => 'The issue body'));
+		$this->client->api('issue')->create(Client::$github_repo_provider, Client::$github_repo, array('title' => $title, 'body' => $body, 'labels' => $label));
 	}
 }

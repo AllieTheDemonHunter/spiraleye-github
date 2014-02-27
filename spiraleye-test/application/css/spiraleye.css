@@ -64,3 +64,33 @@ div#users-contain table td,div#users-contain table th {
 #dialog-form {
 	font-size: 65%;
 }
+
+#body {
+    height: 200px;
+    width: 450px;
+}
+
+#dialog-form li {
+    border: 1px solid #808080;
+    float: left;
+    list-style: none outside none;
+    margin: 4px;
+    padding: 5px;
+}
+
+#dialog-form input[type="checkbox"] {
+    clear: left;
+    float: left;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+#submit {
+    clear: both;
+    float: left;
+    height: 8px;
+    line-height: 20px;
+    margin: 5px;
+    padding: 5px;
+    width: 83px;
+}
