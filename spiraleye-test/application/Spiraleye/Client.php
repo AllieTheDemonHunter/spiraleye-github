@@ -1,4 +1,8 @@
 <?php 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
 
 namespace Spiraleye;
 
@@ -13,12 +17,10 @@ interface ClientModel {
 }
 
 class Client implements ClientModel {
-	public static $github_user = 'AllieTheDemonHunter';
-	public static $github_pass = 'Nishiki.7';
+	public static $github_user = '';
+	public static $github_pass = '';
 	public static $github_repo = 'spiraleye_openerp_addons_6.1';
 	public static $github_repo_provider = 'MachineTi';
-	public static $client_id = '6dea668eb75161aa6651';
-	public static $client_secret = '5e2c098bd37583f5ec707a4a3d8a60f01ad4d555';
 	public $client;
 	
 	public function __construct() {

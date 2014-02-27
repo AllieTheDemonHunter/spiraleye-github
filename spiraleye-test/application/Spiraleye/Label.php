@@ -2,6 +2,11 @@
 
 namespace Spiraleye;
 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+
 require_once 'vendor/autoload.php';
 require_once 'Spiraleye/Issue.php';
 

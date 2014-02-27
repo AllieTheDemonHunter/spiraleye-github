@@ -1,3 +1,10 @@
+<?php 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+?>
+
 <div id="dialog-form" title="Create new issue">
   <p class="validateTips">All form fields are required.</p>
   <form action="controller.php" method="post">

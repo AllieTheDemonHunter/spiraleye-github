@@ -1,4 +1,9 @@
 <?php 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+
 use Spiraleye\Label;
 use Spiraleye\Client;
 include_once 'Spiraleye/Label.php';

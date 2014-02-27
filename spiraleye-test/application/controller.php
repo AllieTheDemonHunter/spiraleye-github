@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+
 require_once 'Spiraleye/Client.php';
 require_once 'Spiraleye/Issue.php';
 print_r($_POST);

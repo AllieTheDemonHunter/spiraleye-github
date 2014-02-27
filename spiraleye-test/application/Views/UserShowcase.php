@@ -1,3 +1,10 @@
+<?php 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+?>
+
 <div class="row placeholders">
   <?php 
   $spiraleye_user = new \Spiraleye\User();

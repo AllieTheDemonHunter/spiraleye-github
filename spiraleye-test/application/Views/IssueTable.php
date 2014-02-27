@@ -1,3 +1,10 @@
+<?php 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+?>
+
 <div class="table-responsive">
 	<table class="table table-striped">
 	  <thead>

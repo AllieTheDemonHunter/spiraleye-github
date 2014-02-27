@@ -1,3 +1,10 @@
+<?php 
+/**
+ * @author Allie du Plooy
+ * @copyright CC 2014
+ */
+?>
+
 <div class="span3">All Labels</div>
           <ul class="nav nav-sidebar">
             <?php 
