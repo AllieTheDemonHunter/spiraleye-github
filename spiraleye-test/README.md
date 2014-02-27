@@ -3,4 +3,4 @@ spiraleye-test
 
 Spiral Eye's GitHub integration test.
 
-This is a test of the GitHub website creating this README file.
+1. Set your Github username and password in the \Spiraleye\Client.php file.
