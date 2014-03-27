@@ -4,7 +4,7 @@ namespace Spiraleye;
 
 /**
  * @author Allie du Plooy
- * @copyright CC 2014
+ * @copyright CC, 2014
  */
 
 require_once 'vendor/autoload.php';
